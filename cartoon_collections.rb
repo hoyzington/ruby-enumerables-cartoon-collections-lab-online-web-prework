@@ -26,11 +26,10 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.reduce {|memo, item|
-    puts item
-#    if array.include?(item) == true
-#     return item
-#    end
+  array.reduce {|memo, item|
+    if cheese_types.include?(item) == true
+     return item
+    end
   }
-#  return nil
+  return nil
 end
