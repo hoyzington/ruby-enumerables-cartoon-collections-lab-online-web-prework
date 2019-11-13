@@ -30,7 +30,7 @@ def find_the_cheese(array)
     puts item
 #    if array.include?(item) == true
 #     return item
-    end
+#    end
   }
 #  return nil
 end
