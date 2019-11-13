@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-  indexed = array.each_with_index
+  indexed = array.each_with_index 
   indexed.each do |indexed|
    puts indexed
   end
